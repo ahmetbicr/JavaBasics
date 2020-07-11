@@ -15,4 +15,10 @@ public class Task2 {
 
 		return result;
 	}
+
+	public static StringBuffer reverse(String str) {
+
+		StringBuffer strb = new StringBuffer(str);
+		return strb.reverse();
+	}
 }
